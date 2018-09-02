@@ -21,7 +21,7 @@ RSpec.describe 'Your second HTML' do
   
   it 'contains an img tag' do
     img = parsed_html.search('img').first
-    expect(img).to include('img'), hint(4, img)
+    expect(img).to include(img), hint(4, img)
   end
   
 end
